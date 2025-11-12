@@ -1,3 +1,13 @@
+git clone https://github.com/Al101020/15.01_DZ-1.git
+$ cd 15.01_DZ-1
+code -n .
+npm run dev
+npm start
+
+
+
+
+
 
 
 # Ниже появилось после установки!!!
