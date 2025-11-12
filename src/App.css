@@ -1,8 +1,40 @@
-.App {
-  text-align: center;
+.container {
+  margin: 0 auto;
+  padding: 15px;
+  width: 390px;
+  height: 320px;
+  border: 1px dashed black;
 }
 
-.App-logo {
+.purchase-info {
+  margin-top: 15px;
+  display: flex;
+}
+
+.price {
+  width: 240px;
+  font-size: 30px;
+}
+
+button {
+  width: 150px;
+  padding: 0 10px;
+  float: right;
+  background-color: black;
+  color: white;
+}
+
+
+.title {
+  text-align: center;
+}
+/* Ниже: появилось после установки - init */
+
+/* .App {
+  text-align: center;
+} */
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +67,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

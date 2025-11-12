@@ -1,3 +1,8 @@
+
+
+# Ниже появилось после установки!!!
+npx create-react-app your
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
