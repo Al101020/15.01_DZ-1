@@ -1,6 +1,8 @@
 import './App.css';
-import ShopItemFunc from './ShopItemFunc';
-import item from './item';
+import ShopItemFunc from './component/ShopItemFunc';
+import item from './component/item';
+// import ShopItemFunc from './ShopItemFunc';
+// import item from './item';
 
 function App() {
 
@@ -17,7 +19,6 @@ function App() {
           <div className='highlight-overlay'></div>
         </div>
         <div className="window">
-          {/* <div>className="window"</div> */}
           <ShopItemFunc item={item} />
         </div>
       </div>
@@ -26,3 +27,5 @@ function App() {
 }
 
 export default App;
+
+

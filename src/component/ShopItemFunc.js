@@ -1,5 +1,8 @@
 import item from './item';
 
+const price = item.price;
+const price00 = price.toFixed(2); // console.log(price00);
+
 function ShopItemFunc() {
   return <div className="main-content">
     <h2>{item.brand}</h2>
@@ -9,8 +12,8 @@ function ShopItemFunc() {
     <div className="highlight-window mobile"><div className="highlight-overlay"></div></div>
     <div className="divider"></div>
     <div className="purchase-info">
-      <div className="price">£{item.price}.00</div>
-      <button>Добавить в корзину</button>
+      <div className="price">£{price00}</div>
+      <button onClick={() => console.log('Клик!')}>Добавить в корзину</button>
     </div>
   </div>;
 }
